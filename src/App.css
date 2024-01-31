@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 5px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+code {
+  font-size: 1.2em;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+label {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: blue;
 }
-
-.App-link {
-  color: #61dafb;
+#price{
+  text-align: right;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#name {
+  text-align: left;
+  color: blue;
+}
+.table_style{
+  border: 20px solid rgb(136, 198, 192);
+  width: 350px;
+  padding: 20px 40px;
+}
+th {
+  padding-top: 10px;
+  text-align: left;
+}
+td {
+  padding: 2px;
+  padding-right: 40px;
+}
+.div_style{
+  border: 15px outset rgb(149, 163, 244);
+  text-align: left;
+  padding: 25px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+  width: 450px;
+  background-color: rgb(247, 244, 220);
+}
+input{
+  border: 5px outset rgb(245, 186, 103);
+}
+ul {
+  padding-inline-start: 20px;
+}
+html{
+  background-color: rgb(247, 244, 220);
 }
