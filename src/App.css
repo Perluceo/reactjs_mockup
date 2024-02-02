@@ -36,7 +36,7 @@ td {
   padding-right: 40px;
 }
 .div_style{
-  border: 15px outset rgb(149, 163, 244);
+  border: 15px outset rgb(93, 64, 6);
   text-align: left;
   padding: 25px;
   margin-left: 25px;
@@ -51,5 +51,5 @@ ul {
   padding-inline-start: 20px;
 }
 html{
-  background-color: rgb(247, 244, 220);
+  background-color: rgb(149, 163, 244);
 }
