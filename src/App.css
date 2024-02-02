@@ -23,9 +23,10 @@ label {
   color: blue;
 }
 .table_style{
-  border: 20px solid rgb(136, 198, 192);
+  border: 20px solid #081F4D;
   width: 350px;
   padding: 20px 40px;
+  background-color: #DBEBFF
 }
 th {
   padding-top: 10px;
@@ -36,13 +37,13 @@ td {
   padding-right: 40px;
 }
 .div_style{
-  border: 15px outset rgb(93, 64, 6);
+  border: 15px outset #CB6015;
   text-align: left;
   padding: 25px;
   margin-left: 25px;
   margin-bottom: 10px;
   width: 450px;
-  background-color: rgb(247, 244, 220);
+  background-color: #B1C9E8;
 }
 input{
   border: 5px outset rgb(245, 186, 103);
@@ -51,5 +52,5 @@ ul {
   padding-inline-start: 20px;
 }
 html{
-  background-color: rgb(149, 163, 244);
+  background-color: #0e4732;
 }
